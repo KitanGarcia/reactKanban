@@ -37,3 +37,12 @@
   border: none;
   font-size: 30px;
 }
+
+.addCard {
+  background-color: white;
+  height: 40%;
+  width: 40%;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}

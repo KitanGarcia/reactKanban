@@ -16,7 +16,7 @@ function ColumnBody(props) {
       <button onClick = {clickPlus}>
         +
       </button>
-    {addCard ? <CardModal /> : ""}
+      <CardModal title = {props.title} clickedPlus = {addCard} />
     </div>
   );
 }
